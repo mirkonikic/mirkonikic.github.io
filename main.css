@@ -150,9 +150,8 @@ a:hover{
         
     /*top bar*/
     .top-bar{
-        max-height: 9vh;
+        max-height: 15vh;
         margin-bottom: 10px;
-        position: fixed;
 
         display: flex;
         flex-direction: row;
@@ -163,7 +162,7 @@ a:hover{
     }
 
     #logo{
-        max-height: 3vh;
+        max-height: 7vh;
     }
 
     /*elementi unutar top bara*/
@@ -172,11 +171,10 @@ a:hover{
         margin-top: auto; /*margin reaguje pre flexbox-a pa ce dodeliti ceo prostor top-margin i time pogurati tekst na dno div-a*/
         max-width: 300px;
         text-align: center;
-        font-size: 12px;
+        font-size: 20px;
     }
 
     .top-bar-dva{
-        position: relative;
         right: 0;
     }
 
@@ -192,8 +190,6 @@ a:hover{
     }
 
     .main-text{
-        padding-top: 8vh;
-        margin-top: 9vh;
         font-size: 38px;
         display: flex;
         flex-direction: row;
@@ -209,7 +205,7 @@ a:hover{
 
     #mirko{
         border-radius: 50%;
-        max-width: 30%;
+        max-width: 50%;
     }
 
     .img{
