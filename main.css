@@ -1,0 +1,29 @@
+body{
+    font-family: "Abril Fatface";
+    font-size: 12px;
+    color: black;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*top bar*/
+.top-bar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+/*elementi unutar top bara*/
+.top-bar > div {
+    padding: 15px;
+    margin-top: auto; /*margin reaguje pre flexbox-a pa ce dodeliti ceo prostor top-margin i time pogurati tekst na dno div-a*/
+    max-width: 300px;
+    text-align: center;
+    font-size: 18px;
+  }
