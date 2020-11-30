@@ -7,22 +7,106 @@
     </head>
     <body>
         <div class="top-bar"> <!-- TOP BAR -->
-            <div><img src="logo2.png" style="max-width: 150px;"></div>
-            <div><a href="projects.html">Projects.</a></div>
-            <div><a href="about.html">About me.</a></div>
-            <div><a href="projects.html">Contact.</a></div>
+            <div class="tb-el"><img id="logo" src="logo2.png"></div>
+            <div class="tb-el"><a href="projects.html">Projects.</a></div>
+            <div class="tb-el"><a href="about.html">About me.</a></div>
+            <div class="tb-el"><a href="contact.html">Contact.</a></div>
+            <div class="top-bar-dva">
+                <button id="d_button" onclick="changeBrightness()"></button>
+            </div>
+        </div>
+        
+        <!-- MAIN PART OF THE WEBSITE -->
+        <div class="second-bar">
+            <div class="text_area">
+                <div class="main-text">
+                    <div>
+                        <a href='https://www.linkedin.com/in/mirko-nikic-386639199/'><img id="mirko" src="https://avatars3.githubusercontent.com/u/30636230?s=460&u=09fbbc3367b02b45bcd9694c7f60b2e8b28a47ed&v=4"></a>
+                    </div>
+                    <div>
+                        <p>
+                            Hello, i am a student of Faculty of Organizational Sciences.
+                            I specialize in Cyber Security and Networking fields, so my projects are mostly geared torwards those two subjects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="img">
+                <div onclick="alert(1)" class="img_a" style="border-radius:20px 0px 0px 0px;background-image: url('micloud.png'); background-size: cover; background-position: center center;">
+                    <div style="background-color: black;">
+                        <p style="color:white; font-size: 20px; padding-left: 20px; margin-right: 40px; margin-bottom: 20px;">Mircloud v1.7. FTP secure file transfering service</p>
+                    </div>
+                </div>
+                <div onclick="alert(1)" class="img_a" style="background-image: url('https://www.defcon.org/images/defcon-main/ctf-vis.jpg'); background-size: cover; background-position: center center;">
+                    <div style="margin-top: auto; background-color: black; width: 100%;">
+                        <p style="color:white; font-size: 20px; padding: 20px;">About me.</p>
+                    </div>
+                </div>
+                <div onclick="alert(1)" class="img_a" style="border-radius:0px 0px 0px 20px;background-image: url('m0_site.png'); background-size: cover; background-position: center center;">
+                    <div style="margin-top: auto; background-color: black; width: 100%;">
+                        <p style="color:white; font-size: 20px; padding: 40px; background-color: black;">Websites.</p>
+                    </div>
+                </div>
+                <div onclick="alert(1)" class="img_a" style="background-image: url('https://github.com/mirkonikic/m_dos/raw/master/Screenshot%20from%202020-07-20%2013-36-23.png'); background-size: cover; background-position: center center;">
+                    <div>
+                        <p style="color:white; font-size: 20px; padding: 40px; background-color: black;">mDoS v1. Uni project that simulates DoS attack</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="img-gal">
-            <div>
-                <img src="">
-            </div>
-            <div>
-                <img src="">
-            </div>
-            <div>
-                <img src="">
-            </div>
-        </div>
+    
+
+
+
+
+
+
+    <script>
+
+        //CHANGE THEME
+        var light = true;
+        var tb = document.getElementsByClassName("top-bar");
+        var as = document.links;
+        
+        console.log(as[0]);
+        function changeBrightness(){
+            if(light){
+                var index;
+                for (index = 0; index < tb.length; ++index) {
+                    tb[index].backgroundColor = "black";
+                }
+
+                var i;
+                for (i = 0; i < as.length; ++i) {
+                    as[i].style.color = "white";
+                }
+
+                document.getElementById("d_button").backgroundColor = "black";
+                document.getElementById("d_button").borderColor = "white";
+                document.getElementById("logo").src = 'logo2_w.png';
+                document.body.style.backgroundColor = "black";
+                document.body.style.color = "white";
+                light = false;
+            }
+            else{
+                var index;
+                for (index = 0; index < tb.length; ++index) {
+                    tb[index].backgroundColor = "white";
+                }
+
+                var i;
+                for (i = 0; i < as.length; ++i) {
+                    as[i].style.color = "black";
+                }
+
+                document.getElementById("logo").src = 'logo2.png';
+                document.body.style.backgroundColor = "white";
+                document.body.style.color = "black";
+                light = true;
+            }
+        }
+    </script>
+
     </body>
 </html>
