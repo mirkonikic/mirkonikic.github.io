@@ -6,7 +6,6 @@ body{
     /*background-image: url("bckg2.png");
     background-repeat: no-repeat;
     background-size: cover;*/
-    overflow: hidden;
     transition: background-color 0.2s, color 1s;
 }
 
@@ -214,7 +213,7 @@ a:hover{
     }
 
     .img{
-        display: flex;
+        display: none;
         flex-wrap: wrap;
         padding: 10px 0 10px 0;
     }
@@ -225,6 +224,7 @@ a:hover{
     }
 
     .img_a:hover{
+        display: none;
         opacity: 0.4;
         cursor: pointer;
         transition: all 0.4s;
