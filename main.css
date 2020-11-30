@@ -171,7 +171,11 @@ a:hover{
     }
 
     #logo{
-        max-height: 7vh;
+        min-height: 9vh;
+    }
+
+    #iam{
+        font-size: 60px;
     }
 
     /*elementi unutar top bara*/
