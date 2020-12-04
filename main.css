@@ -1,25 +1,23 @@
+
+/*
+SECOND BAR
+*/
+
+
+
+/*
+TOP BAR
+*/
+
 body{
     font-family: "Abril Fatface";
     font-size: 12px;
     color: black;
     margin: 0;
-    /*background-image: url("bckg2.png");
-    background-repeat: no-repeat;
-    background-size: cover;*/
     transition: background-color 0.2s, color 1s;
 }
 
-a{
-    text-decoration: none;
-    color:black;
-}
-
-a:hover{
-    text-decoration: underline;
-    transition: all 0.5s;
-}
-
-#d_button{
+  #d_button{
     background-color: white;
     color:white;
     border: 2px solid black;
@@ -27,7 +25,6 @@ a:hover{
     width: 20px;
     height: 20px;
 }
-
 #d_button:hover{
     background-color: black;
     color:white;
@@ -36,224 +33,101 @@ a:hover{
     cursor: pointer;
     transition: all 0.3s;
 }
-
-@media only screen and (min-width: 1161px) {
-    /* For desktop: */
-        
-    .top-m{
-        display: none;
-    }
-
-    /*top bar*/
-    .top-bar{
-        max-height: 9vh;
-        margin-bottom: 10px;
-        position: fixed;
-
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-
-        transition: all 0.2s;
-    }
-
-    /*elementi unutar top bara*/
-    .top-bar > div {
-        padding: 15px;
-        margin-top: auto; /*margin reaguje pre flexbox-a pa ce dodeliti ceo prostor top-margin i time pogurati tekst na dno div-a*/
-        max-width: 300px;
-        text-align: center;
-        font-size: 18px;
-    }
-
-    .top-bar-dva{
-        position: relative;
-        right: 0;
-    }
-
-    .second-bar{
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-    .second-bar > div{
-        width: 50%;
-        height: 100%;
-    }
-
-    .main-text{
-        padding-top: 8vh;
-        margin-top: 9vh;
-        font-size: 40px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .main-text > div{
-        min-width: 100%;
-        min-height: 50%;
-        text-align: center;
-    }
-
-    #mirko{
-        border-radius: 50%;
-        max-width: 30%;
-    }
-
-    .img{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding: 10px 0 10px 0;
-    }
-
-    .img > div{
-        width: 50%;
-        height: 50%;
-    }
-
-    .img_a{
-        font-size: 20px;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        transition: all 1s;
-    }
-
-    .img_a:hover{
-        transform: rotate(90deg);
-        opacity: 0.9;
-        cursor: pointer;
-        transition: transform 0.5s, border-radius 0.2s;
-    }
-
-    #logo{
-        max-height: 6vh;
-    }
-
-    #mirko:hover{
-        cursor: pointer;
-        opacity: 0.9;
-        transition: all 0.2s;
-    }
-
-    .cprght{
-        
-    }
+.top-bar-dva{
+    display: inline;
+}
+#logo{
+    max-height: 60px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
-@media only screen and (max-width: 1161px) {
-    /* For less than desktop: */
-        
-    /*top bar*/
-    .top-bar{
-        max-height: 15vh;
-        margin-bottom: 10px;
-
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-
-        transition: all 0.2s;
+  nav{
+    height: 80px;
+    width: 100%;
+  }
+  
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  a.active,a:hover{
+    background: #c6ffc9;
+    text-decoration: underline;
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  @media (max-width: 952px){
+    label.logo{
+      font-size: 30px;
+      padding-left: 50px;
     }
-
-    .top-m{
-        display: flex;
+    nav ul li a{
+      font-size: 16px;
     }
-
-    #logo{
-        min-height: 9vh;
-    }
-
-    #iam{
-        font-size: 60px;
-        margin: 0;
-    }
-
-    /*elementi unutar top bara*/
-    .top-bar > div {
+    #d_button
+    {
         display: none;
-        padding: 15px;
-        margin-top: auto; /*margin reaguje pre flexbox-a pa ce dodeliti ceo prostor top-margin i time pogurati tekst na dno div-a*/
-        max-width: 300px;
-        text-align: center;
-        font-size: 20px;
     }
-
-    .top-bar-m{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
+  }
+  @media (max-width: 858px){
+    .checkbtn{
+      display: block;
     }
-
-    .top-bar-m > div{
-        max-width: 30vw;
-        margin: 0;
-        font-size: large;
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #000000;
+      top: 80px;
+      left: -110%;
+      text-align: center;
+      transition: all .5s;
     }
-
-    .second-bar{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
     }
-
-    .second-bar > div{
-        width: 100vw;
-        height: 100%;
+    nav ul li a{
+      font-size: 20px;
+      color: white;
     }
-
-    .main-text{
-        font-size: 38px;
-        margin-top: 50px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
+    a:hover,a.active{
+      background: none;
+      color: #ffffff;
     }
-
-    .main-text > div{
-        min-width: 100%;
-        min-height: 50%;
-        text-align: center;
+    #check:checked ~ ul{
+      left: -10;
     }
-
-    #mirko{
-        border-radius: 50%;
-        max-width: 50%;
-    }
-
-    .img{
-        flex-wrap: wrap;
-        padding: 10px 0 10px 0;
-    }
-
-    .img_a{
-        font-size: 60px;
-    }
-
-    .img > div{
-        width: 100%;
-        min-height: 700px;
-    }
-
-    .img_a:hover{
-        opacity: 0.4;
-        cursor: pointer;
-        transition: all 0.4s;
-    }
-
-    .cprght{
-        
-    }
-}
+  }
+  section{
+    background: url(bg1.jpg) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+  }
+  

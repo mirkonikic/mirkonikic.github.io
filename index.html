@@ -6,72 +6,44 @@
         <link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'> <!-- FONTS -->
     </head>
     <body>
-        <div class="top-bar"> <!-- TOP BAR -->
-            <div class="tb-el"><img id="logo" src="logo2.png"></div>
-            <div class="tb-el"><a href="projects.html">Projects.</a></div>
-            <div class="tb-el"><a href="about.html">About me.</a></div>
-            <div class="tb-el"><a href="contact.html">Contact.</a></div>
+
+        <!-- TOP BAR -->
+        
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <i>|||</i>
+            </label>
+                <img id="logo" src="logo2.png">
             <div class="top-bar-dva">
                 <button id="d_button" onclick="changeBrightness()"></button>
             </div>
-        </div>
-        
+            <ul>
+              <li><a class="active" href="#">Home</a></li>
+              <li><a class="change_color" href="#">Projects</a></li>
+              <li><a class="change_color" href="#">About</a></li>
+              <li><a class="change_color" href="#">Contact</a></li>
+            </ul>
+          </nav>
+          <section></section>
 
-        <div class="top-m" style="min-width: 100vw; justify-content: center;"><img id="logo" src="logo2.png"></div>
+
+        <!-- TOP BAR END -->
+
+
+       <!-- SECOND BAR -->
        
-        <!-- MAIN PART OF THE WEBSITE -->
-        <div class="second-bar">
-            <div class="text_area">
-                <div class="main-text">
-                    <div>
-                        <a href='https://www.linkedin.com/in/mirko-nikic-386639199/'><img id="mirko" src="https://avatars3.githubusercontent.com/u/30636230?s=460&u=09fbbc3367b02b45bcd9694c7f60b2e8b28a47ed&v=4"></a>
-                    </div>
-                    <div>
-                        <p id="iam">
-                            Hello, i am a student of Faculty of Organizational Sciences.
-                            I specialize in Cyber Security and Networking fields, so my projects are mostly geared torwards those two subjects.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="img">
-                <div onclick="alert(1)" class="img_a" style="border-radius:20px 0px 0px 0px;background-image: url('micloud.png'); background-size: cover; background-position: center center;">
-                    <div style="background-color: black;">
-                        <p style="color:white; padding-left: 20px; margin-right: 40px; margin-bottom: 20px;">Mircloud v1.7. FTP secure file transfering service</p>
-                    </div>
-                </div>
-                <div onclick="alert(1)" class="img_a" style="background-image: url('https://www.defcon.org/images/defcon-main/ctf-vis.jpg'); background-size: cover; background-position: center center;">
-                    <div style="margin-top: auto; background-color: black; width: 100%;">
-                        <p style="color:white; padding: 20px;">About me.</p>
-                    </div>
-                </div>
-                <div onclick="alert(1)" class="img_a" style="border-radius:0px 0px 0px 20px;background-image: url('m0_site.png'); background-size: cover; background-position: center center;">
-                    <div style="margin-top: auto; background-color: black; width: 100%;">
-                        <p style="color:white; padding: 40px; background-color: black;">Contact.</p>
-                    </div>
-                </div>
-                <div onclick="alert(1)" class="img_a" style="background-image: url('https://github.com/mirkonikic/m_dos/raw/master/Screenshot%20from%202020-07-20%2013-36-23.png'); background-size: cover; background-position: center center;">
-                    <div>
-                        <p style="color:white; padding: 40px; background-color: black;">mDoS v1. Uni project that simulates DoS attack</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    
-
-
-
-
-
+       
+       <!-- SECOND BAR END -->
 
     <script>
 
         //CHANGE THEME
         var light = true;
         var tb = document.getElementsByClassName("top-bar");
-        var as = document.links;
-        
+        //var as = document.links;
+        var as = document.getElementsByClassName("change_color");
+
         console.log(as[0]);
         function changeBrightness(){
             if(light){
