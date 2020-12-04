@@ -7,38 +7,44 @@
         <link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'> <!-- FONTS -->
     </head>
     <body>
-
-        <!-- TOP BAR -->
-        
-        <nav>
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-              <i>|||</i>
-            </label>
-                <img id="logo" src="logo2.png">
-            <div class="top-bar-dva">
-                <button id="d_button" onclick="changeBrightness()"></button>
-            </div>
-            <ul>
-              <li><a class="active" href="#">Home</a></li>
-              <li><a class="change_color" href="#">Projects</a></li>
-              <li><a class="change_color" href="#">About</a></li>
-              <li><a class="change_color" href="#">Contact</a></li>
-            </ul>
-          </nav>
-          <section></section>
+<!-- TOP BAR -->
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i>|||</i>
+        </label>
+            <img id="logo" src="logo2.png">
+        <div class="top-bar-dva">
+            <button id="d_button" onclick="changeBrightness()"></button>
+        </div>
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a class="change_color" href="#">Projects</a></li>
+            <li><a class="change_color" href="#">About</a></li>
+            <li><a class="change_color" href="#">Contact</a></li>
+        </ul>
+    </nav>
+<!-- TOP BAR END -->
 
 
-        <!-- TOP BAR END -->
-
-
-       <!-- SECOND BAR -->
-       
-       
-       <!-- SECOND BAR END -->
+<!-- SECOND BAR -->
+    <div class="section-parent">
+        <div class="col" style="padding-top: 20px;">
+            <img style="border-radius: 40% 0; border-top: 2px solid black; border-bottom: 2px solid black;" src="https://media.istockphoto.com/photos/happy-shiba-inu-dog-on-yellow-redhaired-japanese-dog-smile-portrait-picture-id1197121742?k=6&m=1197121742&s=170667a&w=0&h=6rO57QzqUDmI-LBOTybBnpGRyNJ0FYUt-wbRooaWdCc=">
+        </div>
+        <div class="col">
+            <h1 style="font-size: 40px;">Mirko Nikic</h1>
+        </div>
+        <div class="col">
+            <p style="font-size: 16px">Zdravo moje ime je Mirko.</p>
+            <p style="font-size: 16px">Zanimam se za Networking, Operativne sisteme, Arhitekturu racunara i Sigurnost sistema.</p>
+            <p style="font-size: 16px">Trenutno ucim jezgro operativnih sistema, mreze i spremam CCNA i CEH.</p>
+            <p style="font-size: 16px">O meni mozete vise procitati u ABOUT ssekciji.</p>
+        </div>
+    </div>
+<!-- SECOND BAR END -->
 
     <script>
-
         //CHANGE THEME
         var light = true;
         var tb = document.getElementsByClassName("top-bar");
@@ -47,7 +53,8 @@
 
         console.log(as[0]);
         function changeBrightness(){
-            if(light){
+            if(light)
+            {
                 var index;
                 for (index = 0; index < tb.length; ++index) {
                     tb[index].backgroundColor = "black";
@@ -58,14 +65,15 @@
                     as[i].style.color = "white";
                 }
 
-                document.getElementById("d_button").backgroundColor = "black";
-                document.getElementById("d_button").borderColor = "white";
-                document.getElementById("logo").src = 'logo2_w.png';
-                document.body.style.backgroundColor = "black";
-                document.body.style.color = "white";
-                light = false;
+                    document.getElementById("d_button").backgroundColor = "black";
+                    document.getElementById("d_button").borderColor = "white";
+                    document.getElementById("logo").src = 'logo2_w.png';
+                    document.body.style.backgroundColor = "black";
+                    document.body.style.color = "white";
+                    light = false;
             }
-            else{
+            else
+            {
                 var index;
                 for (index = 0; index < tb.length; ++index) {
                     tb[index].backgroundColor = "white";
