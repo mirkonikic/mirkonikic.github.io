@@ -98,12 +98,24 @@ a.active,a:hover{
 /*
 END TOPBAR
 */
-
-
-
-
+.index-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 20px;
+}
+.index-main-element {
+    text-align: center;
+    flex: 1;
+}
 /*
 INDEX PAGE
+*/
+
+/*
+END INDEX PAGE
 */
 
 
@@ -338,26 +350,6 @@ THIRD BAR
     width: 100%;
     min-height: 50vh;
     border-top: 1px solid black;
-    border-bottom: 1px solid black;
-  }
-  .col {
-      text-align: center;
-    flex: 1;
-  }
-
-
-/*
-SECOND BAR
-*/
-
-.section-parent {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    min-height: calc(100% - 110px);
-    border-top: 1px solid black;
-    padding-top: 20px;
     border-bottom: 1px solid black;
   }
   .col {
