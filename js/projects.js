@@ -12,6 +12,6 @@ document.getElementById("mhtc").addEventListener("mouseover", function() {
     document.getElementById("projects-main-text-p").innerHTML = "MHTC je enkriptovani chat program sa kraja na kraj, sadrzi komande koje ce pomoci sigurnost u toku komuniciranja sa drugom stranom, dok enkripcija stiti od prisluskivanja/sniffovanja paketa. Cilj ovog projekta mi je bila anonimnost i sigurnost korisnika, stiteci ih od ISP-a i MITM napada.";
 }, false);
 document.getElementById("m0_blog").addEventListener("mouseover", function() {
-    document.getElementById("projects-main-title").style.backgroundImage = "url(imgs/projects/m0_site.png)";
+    document.getElementById("projects-main-title").style.backgroundImage = "url(imgs/projects/m0_blog.png)";
     document.getElementById("projects-main-text-p").innerHTML = "M0_BLOG je full stack website koji sam pravio prosle godine, napisan je u jezicima kao sto su Django ,Python, Javascript, React, HTML, CSS, itd... Odrzan je na Apache2 serveru dok ga nisam okacio na strani hosting.";
 }, false);
