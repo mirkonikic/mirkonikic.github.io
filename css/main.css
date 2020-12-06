@@ -436,6 +436,11 @@ UREDJAJI VECI OD 952px
     */
     #shiba{
         min-width: 25%;
+        transition: all 1s;
+    }
+    #shiba:hover{
+        transform: rotate(720deg);
+        transition: all 3s;
     }
     /*
     END INDEX PAGE
