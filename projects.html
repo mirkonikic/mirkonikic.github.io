@@ -8,7 +8,8 @@
         <title>Mirko Nikic</title>
 
         <!-- IMPORT FONT, STYLESHEET AND ICONS -->
-        <link rel="icon" href="https://www.flaticon.com/premium-icon/icons/svg/2171/2171947.svg">
+        <link rel="icon" href="imgs/icon/favicon.svg">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!-- IMPORT JQUERY -->
         <link rel="stylesheet" href="css/main.css"> <!-- MAIN CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
@@ -31,10 +32,10 @@
 
 <!-- FIXED MENU -->
 <div id="projects-fixed-menu">
-    <a id="mircloud" class="projects-fixed-menu-links" href="https://github.com/mirkonikic/mircloud">Mircloud</a>
-    <a id="mdos" class="projects-fixed-menu-links" href="https://github.com/mirkonikic/mdos">mDoS</a>
-    <a id="mhtc" class="projects-fixed-menu-links" href="https://github.com/mirkonikic/mhtc">MHTC</a>
-    <a id="m0_blog" class="projects-fixed-menu-links" href="https://github.com/mirkonikic/m0_blog">m0_blog</a>
+    <a id="mircloud" class="projects-fixed-menu-links" href="#mircloud">Mircloud</a>
+    <a id="mdos" class="projects-fixed-menu-links" href="#mdos">mDoS</a>
+    <a id="mhtc" class="projects-fixed-menu-links" href="#mhtc">MHTC</a>
+    <a id="m0_blog" class="projects-fixed-menu-links" href="#m0_blog">m0_blog</a>
 </div>
 <!-- FIXED MENU END -->
 
@@ -42,6 +43,10 @@
 
 <div id="projects-main-title" style="background-position: center !important; background-size:cover ;background: url('imgs/projects/mhtc.png');">
 
+</div>
+
+<div id="projects-main-text" style="width: 100%; height: auto;">
+    <p style="padding-left: 5px;" id="projects-main-text-p"></p>
 </div>
 
 <!-- PROJECTS MAIN BAR END -->
@@ -86,7 +91,31 @@
     <p style="padding:10px;text-decoration:underline; margin: 0 !important;">Copyright 	&copy; 2020 Mirko Nikic</p>
   </div>
 
-  <script src="js/projects.js"></script>
-  <script src="js/main.js"></script>
-  </body>
+    <script>
+    $( document ).ready(function() {
+        if($(location).attr('hash') == "#mdos")
+        {
+            $('#projects-main-title').css('background-image', 'url(' + 'imgs/projects/mdos.png' + ')');
+        } 
+        else if($(location).attr('hash') == "#m0_site")
+        {
+            $('#projects-main-title').css('background-image', 'url(' + 'imgs/projects/m0_site.png' + ')');
+        }
+        else if($(location).attr('hash') == "#mircloud")
+        {
+            $('#projects-main-title').css('background-image', 'url(' + 'imgs/projects/micloud.png' + ')');
+        }
+        else if($(location).attr('hash') == "#mhtc")
+        {
+            $('#projects-main-title').css('background-image', 'url(' + 'imgs/projects/mhtc.png' + ')');
+        }
+        else
+        {
+            console.log($(location).attr('hash'));
+        }
+    });
+    </script>
+    <script src="js/projects.js"></script>
+    <script src="js/main.js"></script>
+    </body>
 </html>
