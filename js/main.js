@@ -26,7 +26,7 @@ function changeBrightness(){
 
             document.getElementById("top-bar-mode-change-button").backgroundColor = "black";
             document.getElementById("top-bar-mode-change-button").borderColor = "white";
-            document.getElementById("top-bar-logo").src = 'logo2_w.png';
+            document.getElementById("top-bar-logo").src = 'imgs/logo/logo2_w.png';
             document.body.style.backgroundColor = "black";
             document.body.style.color = "white";
             light = false;
@@ -49,7 +49,7 @@ function changeBrightness(){
             as[i].style.color = "black";
         }
 
-        document.getElementById("top-bar-logo").src = 'logo2.png';
+        document.getElementById("top-bar-logo").src = 'imgs/logo/logo2.png';
         document.body.style.backgroundColor = "white";
         document.body.style.color = "black";
         light = true;

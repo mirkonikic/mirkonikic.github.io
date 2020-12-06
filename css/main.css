@@ -111,6 +111,28 @@ INDEX PAGE
 
 
 /*
+ABOUT PAGE
+*/
+.about-main {
+    
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 100%;
+    min-height: calc(100vh - 80px);
+    
+    border-bottom: 1px solid black;
+}
+/*
+END ABOUT PAGE
+*/
+
+
+
+/*
 CONTACT PAGE
 */
 .contact-main{
@@ -187,19 +209,6 @@ END CONTACT PAGE
 
 
 
-/*
-ABOUT
-*/
-.section-parent-about {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    min-height: calc(100vh - 160px);
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-}
 
 
 /*
@@ -345,15 +354,28 @@ UREDJAJI VECI OD 952px
     /*
     END BOTTOM BAR
     */
-    
+
+    /*
+        INDEX PAGE
+    */
     #shiba{
         min-width: 25%;
     }
-    .col-about{
+    /*
+    END INDEX PAGE
+    */
+
+    /*
+        ABOUT PAGE
+    */
+    .about-main-element{
         min-width: 50%;
         max-width: 50%;
         min-height: 100%;
     }
+    /*
+    END ABOUT PAGE
+    */
 }
 
 
@@ -386,6 +408,18 @@ UREDJAJI MANJI OD 952px
     END BOTTOM BAR
     */
 
+    /*
+        ABOUT PAGE
+    */
+    .about-main-element{
+        min-width: 100%;
+        height: 100%;
+    }
+    /*
+    END ABOUT PAGE
+    */
+
+
 .col-projcts > .projects{
     min-width: 340px;
     height: 500px;
@@ -394,11 +428,6 @@ UREDJAJI MANJI OD 952px
     background-size: cover;
     transition: width 1s;
     border: white 2px solid;
-}
-
-.col-about{
-    min-width: 100%;
-    height: 100%;
 }
 
 #shiba{
