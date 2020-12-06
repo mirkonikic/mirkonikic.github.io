@@ -14,15 +14,12 @@
     </head>
     <body>
 <!-- TOP BAR -->
-        <nav>
+        <nav style="position: fixed; width: 100%;background-color: white;">
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
                 <i>|||</i>
             </label>
             <img id="top-bar-logo" src="imgs/logo/logo2.png">
-            <div class="top-bar-mode-change">
-                <button id="top-bar-mode-change-button" onclick="changeBrightness()"></button>
-            </div>
             <ul>
                 <li><a class="change_color" href="index.html">Home</a></li>
                 <li><a class="active" href="projects.html">Projects</a></li>
@@ -32,38 +29,25 @@
         </nav>
 <!-- TOP BAR END -->
 
+<!-- FIXED MENU -->
+<div id="projects-fixed-menu">
+    <a id="mircloud" class="projects-fixed-menu-links" href="https://github.com/mirkonikic/mircloud">Mircloud</a>
+    <a id="mdos" class="projects-fixed-menu-links" href="https://github.com/mirkonikic/mdos">mDoS</a>
+    <a id="mhtc" class="projects-fixed-menu-links" href="https://github.com/mirkonikic/mhtc">MHTC</a>
+    <a id="m0_blog" class="projects-fixed-menu-links" href="https://github.com/mirkonikic/m0_blog">m0_blog</a>
+</div>
+<!-- FIXED MENU END -->
 
+<!-- PROJECTS MAIN BAR -->
 
+<div id="projects-main-title" style="background-position: center !important; background-size:cover ;background: url('imgs/projects/mhtc.png');">
 
+</div>
 
+<!-- PROJECTS MAIN BAR END -->
 
 
 <!-- OVDE STAVI JEDAN ISPOD DRUGOG TRI NAJBOLJA PROJEKTA I ISPOD STAVI FUTURE PROJECTS SEKCIJU -->
-
-<!-- NASLOV + GITHUB LINK -->
-<div>
-    <h1>MOJI PROJEKTI</h1>
-</div>
-
-<!-- MENI -->
-<div class="meni1">
-    <h4>Meni</h4>
-    <ul>
-        <li><a href="projects.html#mircloud">Mircloud</a></li>
-        <li><a href="projects.html#mhtc">MHTC</a></li>
-        <li><a href="projects.html#mdos">mDoS</a></li>
-        <li><a href="projects.html#mios">MiOS</a></li>
-        <li><a href="projects.html#mish">mish</a></li>
-        <li><a href="projects.html#m0">m0_blog</a></li>
-        <li><a href="projects.html#future">future_projects</a></li>
-        
-    </ul>
-</div>
-
-<!-- SHOWREEL SAMO SLIKA I TEKST KAO U ABOUT ME-->
-
-
-<!-- PLAN SA CHECKBOXOVIMA KOJI NE MOGU DA SE MENJAJU-->
 
 
 
@@ -102,6 +86,7 @@
     <p style="padding:10px;text-decoration:underline; margin: 0 !important;">Copyright 	&copy; 2020 Mirko Nikic</p>
   </div>
 
+  <script src="js/projects.js"></script>
   <script src="js/main.js"></script>
   </body>
 </html>

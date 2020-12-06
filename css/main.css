@@ -107,14 +107,45 @@ INDEX PAGE
 */
 
 
+/*
+PROJECTS PAGE
+*/
+#projects-main-title{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 
-
+    width: 100%; 
+    min-height: 100vh;
+}
+#projects-fixed-menu{
+    position: fixed;
+    bottom: 0;
+}
+.projects-fixed-menu-links{
+    padding: 10px;
+    padding-top: 0;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border: 2px solid white;
+}
+.projects-fixed-menu-links:hover{
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid white;
+}
+/*
+END PROJECTS PAGE
+*/
 
 /*
 ABOUT PAGE
 */
 .about-main {
-    
+    background: url('../imgs/backgrounds/bckg-about.jpg');
     
     display: flex;
     flex-direction: row;
@@ -125,6 +156,59 @@ ABOUT PAGE
     min-height: calc(100vh - 80px);
     
     border-bottom: 1px solid black;
+}
+.about-main-element{
+    background-color: white;
+}
+#about-takmicenje-iz-hakovanja{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 100%;
+    height: auto;
+    
+    border-bottom: 1px solid black;
+}
+#about-takmicenje-iz-hakovanja-info{
+    text-align: center;
+    min-width: 50%;
+}
+#about-takmicenje-iz-hakovanja-iframe{
+    border-left: 1px black solid;
+    min-width: 49%;
+}
+#about-obrazovanje{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 100%;
+    height: auto;
+    
+    border-bottom: 1px solid black;
+}
+#about-obrazovanje-fon{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    min-width: 50%;
+}
+#about-obrazovanje-tbg{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    min-width: 50%;
+}
+#about-treniranje-fudbala{
+    display:flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    flex-direction: row;
 }
 /*
 END ABOUT PAGE
@@ -148,7 +232,7 @@ CONTACT PAGE
 
     /* BOJA 2 */
     background: rgb(161,196,253);
-    background: linear-gradient(145deg, rgba(161,196,253,1) 0%, rgba(194,233,251,1) 100%);
+    background: linear-gradient(145deg, rgb(153, 192, 255) 0%, rgba(194,233,251,1) 100%);
 
     padding-top: 20px;
     padding-bottom: 20px;
@@ -414,6 +498,12 @@ UREDJAJI MANJI OD 952px
     .about-main-element{
         min-width: 100%;
         height: 100%;
+    }
+    #about-takmicenje-iz-hakovanja-info{
+        min-width: 100%;
+    }
+    #about-takmicenje-iz-hakovanja-iframe{
+        display: none;
     }
     /*
     END ABOUT PAGE
