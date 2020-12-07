@@ -23,7 +23,7 @@ function changeBrightness(){
         for (i = 0; i < as.length; ++i) {
             as[i].style.color = "white";
         }
-
+            document.getElementsByTagName('nav')[0].style.backgroundColor = "black";
             document.getElementById("top-bar-mode-change-button").backgroundColor = "black";
             document.getElementById("top-bar-mode-change-button").borderColor = "white";
             document.getElementById("top-bar-logo").src = 'imgs/logo/logo2_w.png';
@@ -48,7 +48,8 @@ function changeBrightness(){
         for (i = 0; i < as.length; ++i) {
             as[i].style.color = "black";
         }
-
+        
+        document.getElementsByTagName('nav')[0].style.backgroundColor = "white";
         document.getElementById("top-bar-logo").src = 'imgs/logo/logo2.png';
         document.body.style.backgroundColor = "white";
         document.body.style.color = "black";
@@ -78,16 +79,16 @@ function validate(){
     var result = document.getElementById("contact-result");
 
     if(first_name[0].value == ""){
-        result.innerHTML = "Field 'first name' should not be empty.";
+        result.innerHTML = "Polje 'first name' ne bi trebalo da bude prazno.";
     }
     else if(last_name[0].value == ""){
-        result.innerHTML = "Field 'last name' should not be empty.";
+        result.innerHTML = "Polje 'last name' ne bi trebalo da bude prazno.";
     }
     else if(email[0].value == ""){
-        result.innerHTML = "Field 'email' should not be empty.";
+        result.innerHTML = "Polje 'email' ne bi trebalo da bude prazno.";
     }
     else if(msg[0].value == ""){
-        result.innerHTML = "Field 'message' should not be empty.";
+        result.innerHTML = "Polje 'message' ne bi trebalo da bude prazno.";
     }
     else{
         if(/^[a-zA-Z]+$/.test(first_name[0].value)){
@@ -96,15 +97,15 @@ function validate(){
                     result.innerHTML = "Poruka je poslata!";
                 }
                 else{
-                    result.innerHTML = "Field 'email' should be written in a proper format.";
+                    result.innerHTML = "Polje 'email' bi trebalo da bude napisano u odgovarajucem formatu.";
                 }
             }
             else{
-                result.innerHTML = "Field 'last name' should only contain letters.";
+                result.innerHTML = "Polje 'last name' bi trebalo da sadrzi samo slova.";
             }
         }
         else{
-            result.innerHTML = "Field 'first name' should only contain letters.";
+            result.innerHTML = "Polje 'first name' bi trebalo da sadrzi samo slova.";
         }
     }
 }
