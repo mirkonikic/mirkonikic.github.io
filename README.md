@@ -5,4 +5,4 @@ Website for Uni project
 - [ ] add Downloads section
 - [ ] redesign website
 - [ ] fix website responsiveness
-- [ ] 
+- [ ] update information
