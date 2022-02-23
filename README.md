@@ -6,3 +6,4 @@ Website for Uni project
 - [ ] redesign website
 - [ ] fix website responsiveness
 - [ ] update information
+- [ ] blog section - u tekstu ispisem, JavaScript parsuje to u Header... kao blog
