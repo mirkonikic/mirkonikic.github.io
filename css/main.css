@@ -132,8 +132,8 @@ PROJECTS PAGE
     min-height: calc(100vh - 80px);
 }
 #projects-fixed-menu{
-    position: fixed;
-    bottom: 0;
+    position: absolute;
+    bottom: 10%;
 }
 .projects-fixed-menu-links{
     padding: 10px;
