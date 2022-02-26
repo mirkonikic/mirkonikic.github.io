@@ -10,4 +10,4 @@ Website for Uni project
 - [ ] blog section - u tekstu ispisem, JavaScript parsuje to u Header... kao blog
 - [ ] inspiration: https://orhun.dev/ - theme 1 current & theme 2 man page
 - [ ] tanslate to english
-- [ ] add: tesky, chip8, mmalloc, 
+- [ ] add: tesky, chip8, mmalloc, boot_from_pdf, NESgame, cellularAutomataKadZavrsis
