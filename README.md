@@ -12,3 +12,4 @@ Website for Uni project
 - [ ] tanslate to english
 - [ ] add: tesky, chip8, mmalloc, boot_from_pdf, NESgame, cellularAutomataKadZavrsis, mirkOS, drawingPathfindingAlgorithm
 - [ ] 3JS - https://www.youtube.com/watch?v=Q7AOvWpIVHU
+
