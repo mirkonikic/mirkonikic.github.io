@@ -12,7 +12,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
         {
             config: 'white',
             text: 'White',
-            id: 2
+            id: 0
         },
         {
             config: 'sepia',
@@ -22,7 +22,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
         {
             config: 'night',
             text: 'Night',
-            id: 0
+            id: 2
         }
     ];
 
@@ -146,7 +146,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             return theme.config == configName;
         })[0];
         // Fallback to default theme
-        return (!!configTheme)? configTheme.id : 0;
+        return (!!configTheme)? configTheme.id : 2;
     }
 
     function update() {
