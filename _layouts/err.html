@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+      
+      <meta charset="UTF-8">
+      <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+      
+      {%- if page.title -%}
+          <title>{{ page.title | escape }} · {{ site.title | escape }}</title>
+      {%- else -%}
+          <title>{{ site.title | escape }}</title>
+      {%- endif -%}
+      
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="description" content="{{site.description}}">
+      
+      {%- if site.gitbook_version -%}
+          <meta name="generator" content="Jekyll (using style of GitBook {{ site.gitbook_version | escape }})">
+      {%- else -%}
+          <meta name="generator" content="Jekyll (using style of GitBook)">
+      {%- endif -%}
+      
+      {%- if site.author -%}
+          <meta name="author" content="{{ site.author | escape }}">
+      {%- endif -%}
+
+    </head>
+    <body style="background:#000022">
+        <div class="book">
+            <div class="body-inner">
+                
+                <div class="page-wrapper" tabindex="-1" role="main">
+                    <div class="page-inner">
+                        <div id="book-search-results">
+                            <div class="search-noresults">
+                                <section class="normal markdown-section">
+                                        {% if page.title %}
+                                            <h1 style="color:white" id="{{ page.id }}">{{ page.title | escape }}</h1>
+                                        {% else %}
+                                            <h1 style="color:#bdcadb" id="{{ page.id }}">{{ site.title | escape }}</h1>
+                                        {% endif %}
+                                        {{ content }}
+                                </section>
+                            </div>
+                
+                        </div>
+                    </div>
+                </div>
+                
+                {% include mathjax.html %}
+
+            </div>
+        </div>
+    </body>
+</html>

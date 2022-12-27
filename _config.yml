@@ -1,10 +1,10 @@
 # Configurations
-title:            Jekyll Gitbook
-longtitle:        Jekyll Gitbook
+title:            Mirko's Sci-fi Blog
+longtitle:        Mirko's Science-fiction Blog
 author:           Mirko Nikic
 
-url:              '' #'https://mirkonikic.github.io'
-baseurl:          '/'
+#url:              '' #'https://mirkonikic.github.io'
+#baseurl:          '/'
 rss:              RSS
 
 toc:

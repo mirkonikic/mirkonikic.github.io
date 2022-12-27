@@ -1,8 +1,59 @@
 ---
+author: mirkhoff
 layout: home
-title: Jekyll Gitbook Theme
+date: Dec 27, 2022
+title: int __libc_start_main(int *(main));
+cover: /assets/home.jpeg
 permalink: /
 ---
+
+Hi!
+
+On the internet, i go by the name <a href="">'mirkhoff'</a>.
+
+I am a computer science undergrad , and I love _______. I spend most of my time reading books and thinking about _____
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Make Jelly site have a GitBook look!
 
