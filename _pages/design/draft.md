@@ -1,7 +1,7 @@
 ---
 title: Design Draft
 author: mirkhoff
-date: 2022-02-06
+date: Feb 6, 2022
 category: Jekyll
 layout: post
 ---

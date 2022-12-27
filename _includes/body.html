@@ -21,9 +21,10 @@
 
                     {% if page.author %}
                       {% if page.date %}
-                      <p id="{{ page.id }}" style="display: inline-block; width:80%">Posted on <span style="text-decoration:underline">{{ page.date | escape }}</span>, by <b>{{ page.author | escape }}</b></p>
+                      <p id="{{ page.id }}" style="display: inline-block; width:80%">Posted on <span style="text-decoration:underline">{{ page.date | date: "%b %-d, %Y" }}</span>, by <a href="https://twitter.com/mirkhoff2"><b>{{ page.author | escape
+                          }}</b></a></p>
                       {% else %}
-                      <p id="{{ page.id }}" style="display: inline-block; width:80%">Posted on <span style="color:red; font-weight:bold">UNKNOWN</span> by <b>{{ page.author | escape }}</b></p>
+                      <p id="{{ page.id }}" style="display: inline-block; width:80%">Posted on <span style="color:red; font-weight:bold">UNKNOWN</span> by <a href="https://twitter.com/mirkhoff2"><b>{{ page.author | escape }}</b></a></p>
                       {% endif %}
                     {% endif %}
                     <p style="text-align: right; display: inline-block"><b>{%- include read_time.html -%}</b> read!</p>

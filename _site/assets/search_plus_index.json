@@ -13,9 +13,9 @@
     "keywords": "Jekyll",
     "url": "/pages/design/draft/",
     "body": "This is an draft page."
-  },"/2022-12-27-about-me.html": {
+  },"/": {
     "title": "int __libc_start_main(int *(main));",
-    "keywords": "",
-    "url": "/2022-12-27-about-me.html",
-    "body": "Hi! On the internet, i go by the name ‘mirkhoff’. I am a computer science undergrad , and I love __. I spend most of my time reading books and thinking about ____ Make Jelly site have a GitBook look! Demo Live demo on Github Pages: https://sighingnow.github.io/jekyll-gitbook Why Jekyll with GitBook GitBook is an amazing frontend style to present and organize contents (such as book chapters and blogs) on Web. The typical to deploy GitBook at [Github Pages][1] is building HTML files locally and then push to Github repository, usually to the gh-pages branch. It’s quite annoying to repeat such workload and make it hard for people do version control via git for when there are generated HTML files to be staged in and out. This theme takes style definition out of generated GitBook site and provided the template for Jekyll to rendering markdown documents to HTML, thus the whole site can be deployed to [Github Pages][1] without generating and uploading HTML bundle every time when there are changes to the original repo. How to Get Started This theme can be used just as other [Jekyll themes][1] and support [remote theme][12], see [the official guide][13] as well. You can introduce this jekyll theme into your own site by either [Fork][3] this repository and add your markdown posts to the _posts folder. Use as a remote theme in your [_config.yml]14, remote_theme: sighingnow/jekyll-gitbook Deploy Locally with Jekyll Serve This theme can be ran locally using Ruby and Gemfiles. Testing your GitHub Pages site locally with Jekyll - GitHub Full-text search"
+    "keywords": "aboutme",
+    "url": "/",
+    "body": "Hi! On the internet, i go by the name ‘mirkhoff’. I am a comp sci undergrad, hobbyist researcher, and in free time teaching assistant. I spend most of my time reading books and breaking most of the stuff i touch.. I wish to use this blog as a place to merge pieces of my knowledge in a whole, and one day release it as a hopefully advanced book for science enthusiasts! I interest my self in theoretic computer science, which i try to bend to my liking and create some weird and crazy projects, i interest my self heavily in maths, literature and electromagnetic field of physics to which im a newbie. Most of the articles will be one of the three main categories: Research i or someone else did, Theory concept i grasped deeply or Project im building! In whats left of my time, i usually play guitar, piano, football or workout. I hope that you will like this blog!"
   }}

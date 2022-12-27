@@ -1,50 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-27T21:23:44+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mirko’s Sci-fi Blog</title><author><name>Mirko Nikic</name></author><entry><title type="html">int __libc_start_main(int *(main));</title><link href="http://localhost:4000/2022-12-27-about-me.html" rel="alternate" type="text/html" title="int __libc_start_main(int *(main));" /><published>2022-12-27T00:00:00+01:00</published><updated>2022-12-27T00:00:00+01:00</updated><id>http://localhost:4000/about-me</id><content type="html" xml:base="http://localhost:4000/2022-12-27-about-me.html"><![CDATA[<p>Hi!</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-27T22:31:29+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mirko’s Sci-fi Blog</title><author><name>Mirko Nikic</name></author><entry><title type="html">int __libc_start_main(int *(main));</title><link href="http://localhost:4000/" rel="alternate" type="text/html" title="int __libc_start_main(int *(main));" /><published>2022-12-27T00:00:00+01:00</published><updated>2022-12-27T00:00:00+01:00</updated><id>http://localhost:4000/about-me</id><content type="html" xml:base="http://localhost:4000/"><![CDATA[<p>Hi!</p>
 
-<p>On the internet, i go by the name <a href="">‘mirkhoff’</a>.</p>
+<p>On the internet, i go by the name <a href="https://twitter.com/mirkhoff2" style="color:white">‘mirkhoff’</a>.</p>
 
-<p>I am a computer science undergrad , and I love <strong>__</strong><em>. I spend most of my time reading books and thinking about __</em>__</p>
+<p>I am a comp sci undergrad, hobbyist researcher, and in free time teaching assistant. I spend most of my time reading books and breaking most of the stuff i touch..</p>
 
-<p>Make Jelly site have a GitBook look!</p>
+<p>I wish to use this blog as a place to merge pieces of my knowledge in a whole, and one day release it as a hopefully advanced book for science enthusiasts!
+I interest my self in theoretic computer science, which i try to bend to my liking and create some weird and crazy projects, i interest my self heavily in maths, literature and electromagnetic field of physics to which im a newbie.</p>
 
-<h2 id="demo">Demo</h2>
+<p>Most of the articles will be one of the three main categories: Research i or someone else did, Theory concept i grasped deeply or Project im building!
+In whats left of my time, i usually play guitar, piano, football or workout.</p>
 
-<p>Live demo on Github Pages: <a href="https://sighingnow.github.io/jekyll-gitbook">https://sighingnow.github.io/jekyll-gitbook</a></p>
-
-<p><a href="https://jekyll-themes.com/jekyll-gitbook/"><img src="https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg" alt="Jekyll Themes" /></a></p>
-
-<h2 id="why-jekyll-with-gitbook">Why Jekyll with GitBook</h2>
-
-<p>GitBook is an amazing frontend style to present and organize contents (such as book chapters
-and blogs) on Web. The typical to deploy GitBook at [Github Pages][1]
-is building HTML files locally and then push to Github repository, usually to the <code class="language-plaintext highlighter-rouge">gh-pages</code>
-branch. It’s quite annoying to repeat such workload and make it hard for people do version
-control via git for when there are generated HTML files to be staged in and out.</p>
-
-<p>This theme takes style definition out of generated GitBook site and provided the template
-for Jekyll to rendering markdown documents to HTML, thus the whole site can be deployed
-to [Github Pages][1] without generating and uploading HTML bundle every time when there are
-changes to the original repo.</p>
-
-<h2 id="how-to-get-started">How to Get Started</h2>
-
-<p>This theme can be used just as other [Jekyll themes][1] and support [remote theme][12],
-see [the official guide][13] as well.</p>
-
-<p>You can introduce this jekyll theme into your own site by either</p>
-
-<ul>
-  <li>[Fork][3] this repository and add your markdown posts to the <code class="language-plaintext highlighter-rouge">_posts</code> folder.</li>
-  <li>Use as a remote theme in your [<code class="language-plaintext highlighter-rouge">_config.yml</code>]<a href="just like what we do for this
-site itself">14</a>,</li>
-</ul>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">remote_theme</span><span class="pi">:</span> <span class="s">sighingnow/jekyll-gitbook</span>
-</code></pre></div></div>
-
-<h3 id="deploy-locally-with-jekyll-serve">Deploy Locally with Jekyll Serve</h3>
-
-<p>This theme can be ran locally using Ruby and Gemfiles.</p>
-
-<p><a href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll">Testing your GitHub Pages site locally with Jekyll</a> - GitHub</p>
-
-<h2 id="full-text-search">Full-text search</h2>]]></content><author><name>mirkhoff</name></author><summary type="html"><![CDATA[Hi!]]></summary></entry></feed>
+<p>I hope that you will like this blog!</p>]]></content><author><name>mirkhoff</name></author><category term="aboutme" /><summary type="html"><![CDATA[Hi!]]></summary></entry></feed>
