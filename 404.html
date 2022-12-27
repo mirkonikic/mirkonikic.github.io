@@ -203,11 +203,8 @@ layout: err
       }
 
     },
-    // TODO: change color of invaders to lighter white
     draw: function() {
-      //screen.filter = 'invert(1)';
       if (this.active) screen.drawImage(invaderCanvas, this.coordinates.x, this.coordinates.y);
-      //screen.filter = 'invert(0)';
     },
     move: function() {
       if (this.patrolX < 0 || this.patrolX > 200) {

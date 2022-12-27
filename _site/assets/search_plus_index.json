@@ -3,19 +3,19 @@
     "keywords": "Jekyll",
     "url": "/pages/about/",
     "body": "This is an about page."
-  },"/pages/contact/": {
-    "title": "Contact",
-    "keywords": "Jekyll",
-    "url": "/pages/contact/",
-    "body": "This is an contact page."
   },"/pages/design/draft/": {
     "title": "Design Draft",
     "keywords": "Jekyll",
     "url": "/pages/design/draft/",
     "body": "This is an draft page."
-  },"/": {
+  },"/pages/contact/": {
+    "title": "Contact",
+    "keywords": "Jekyll",
+    "url": "/pages/contact/",
+    "body": "This is an contact page."
+  },"/0": {
     "title": "int __libc_start_main(int *(main));",
     "keywords": "aboutme",
-    "url": "/",
-    "body": "Hi! On the internet, i go by the name ‘mirkhoff’. I am a comp sci undergrad, hobbyist researcher, and in free time teaching assistant. I spend most of my time reading books and breaking most of the stuff i touch.. I wish to use this blog as a place to merge pieces of my knowledge in a whole, and one day release it as a hopefully advanced book for science enthusiasts! I interest my self in theoretic computer science, which i try to bend to my liking and create some weird and crazy projects, i interest my self heavily in maths, literature and electromagnetic field of physics to which im a newbie. Most of the articles will be one of the three main categories: Research i or someone else did, Theory concept i grasped deeply or Project im building! In whats left of my time, i usually play guitar, piano, football or workout. I hope that you will like this blog!"
+    "url": "/0",
+    "body": "Hi! whoami On the internet, i go by the name ‘mirkhoff’. I am a comp sci undergrad, hobbyist researcher, and in free time teaching assistant. I spend most of my time reading books and breaking most of the stuff i touch.. mirkh.off blog I wish to use this blog as a place to merge pieces of my knowledge in a whole, and one day release it as a hopefully advanced book for science enthusiasts! I interest my self in theoretic computer science, which i try to bend to my liking and create some weird and crazy projects, i also interest my self heavily in maths, literature and electromagnetic field of physics to which im a newbie. Most of the articles will be one of the three main categories: Research i or someone else did, Theory concept i grasped deeply, Book review or Project im building! In whats left of my time, i usually play guitar, piano, football or workout. I hope that you will like this blog!"
   }}

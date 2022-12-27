@@ -1,7 +1,7 @@
 require(['gitbook', 'jquery'], function(gitbook, $) {
     // Configuration
-    var MAX_SIZE       = 4,
-        MIN_SIZE       = 0,
+    var MAX_SIZE       = 3,
+        MIN_SIZE       = 1,
         BUTTON_ID;
 
     // Current fontsettings state
@@ -12,7 +12,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
         {
             config: 'white',
             text: 'White',
-            id: 0
+            id: 2
         },
         {
             config: 'sepia',
@@ -22,7 +22,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
         {
             config: 'night',
             text: 'Night',
-            id: 2
+            id: 0
         }
     ];
 

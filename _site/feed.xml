@@ -1,13 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-27T22:35:45+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mirko’s Sci-fi Blog</title><author><name>Mirko Nikic</name></author><entry><title type="html">int __libc_start_main(int *(main));</title><link href="http://localhost:4000/" rel="alternate" type="text/html" title="int __libc_start_main(int *(main));" /><published>2022-12-27T00:00:00+01:00</published><updated>2022-12-27T00:00:00+01:00</updated><id>http://localhost:4000/about-me</id><content type="html" xml:base="http://localhost:4000/"><![CDATA[<p>Hi!</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-28T00:27:24+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mirko’s Sci-fi Blog</title><author><name>Mirko Nikic</name></author><entry><title type="html">int __libc_start_main(int *(main));</title><link href="http://localhost:4000/0" rel="alternate" type="text/html" title="int __libc_start_main(int *(main));" /><published>2022-12-20T00:00:00+01:00</published><updated>2022-12-20T00:00:00+01:00</updated><id>http://localhost:4000/about-me</id><content type="html" xml:base="http://localhost:4000/0"><![CDATA[<p>Hi!</p>
 
-<p>On the internet, i go by the name <a href="https://twitter.com/mirkhoff2" style="color:white">‘mirkhoff’</a>.</p>
+<h3 id="whoami">whoami</h3>
+<p>On the internet, i go by the name <a href="https://twitter.com/mirkhoff2" style="font-weight:bold; border-radius:12px; border-bottom:2px solid white; padding:5px">‘mirkhoff’</a>.</p>
 
 <p>I am a comp sci undergrad, hobbyist researcher, and in free time teaching assistant. I spend most of my time reading books and breaking most of the stuff i touch..</p>
 
+<h3 id="mirkhoff-blog">mirkh.off blog</h3>
 <p>I wish to use this blog as a place to merge pieces of my knowledge in a whole, and one day release it as a hopefully advanced book for science enthusiasts!
-I interest my self in theoretic computer science, which i try to bend to my liking and create some weird and crazy projects, i interest my self heavily in maths, literature and electromagnetic field of physics to which im a newbie.</p>
+I interest my self in theoretic computer science, which i try to bend to my liking and create some weird and crazy projects, i also interest my self heavily in maths, literature and electromagnetic field of physics to which im a newbie.</p>
 
-<p>Most of the articles will be one of the three main categories: Research i or someone else did, Theory concept i grasped deeply or Project im building!
+<p>Most of the articles will be one of the three main categories: Research i or someone else did, Theory concept i grasped deeply, Book review or Project im building!
 In whats left of my time, i usually play guitar, piano, football or workout.</p>
 
 <p>I hope that you will like this blog!</p>]]></content><author><name>mirkhoff</name></author><category term="aboutme" /><summary type="html"><![CDATA[Hi!]]></summary></entry></feed>
