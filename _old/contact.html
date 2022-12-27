@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="This my personal portfolio website. My name is Mirko Nikic enjoy."/>
+        <meta name="keywords" content="Mirko Nikic"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mirko Nikic</title>
+
+        <!-- IMPORT FONT, STYLESHEET AND ICONS -->
+        <link rel="icon" href="imgs/icon/favicon.svg">
+        <link rel="stylesheet" href="css/main.css"> <!-- MAIN CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+<!-- TOP BAR -->
+
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i>|||</i>
+            </label>
+            <img id="top-bar-logo" src="imgs/logo/logo2.png">
+            <div class="top-bar-mode-change">
+                <button id="top-bar-mode-change-button" onclick="changeBrightness()"></button>
+            </div>
+            <ul>
+                <li><a class="change_color" href="index.html">Home</a></li>
+                <li><a class="change_color" href="projects.html">Projects</a></li>
+                <li><a class="change_color" href="downloads.html">Downloads</a></li>
+                <li><a class="change_color" href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+<!-- TOP BAR END -->
+
+<!-- MAIN BAR -->
+
+<!-- OVDE NAPRAVI FORMU i ISPOD DODAJ SUBMIT -->
+<!-- JAVASCRIPT ISPISE VREME -->
+<!-- JAVASCRIPT ODGOVORI NA POSLATU PORUKU -->
+<div class="contact-main">
+    <div>
+      <h1 style="margin: 0; color: black !important;">CONTACT</h1>
+      <p style="display: inline; color: black !important; margin-bottom: 10px;">Ovde me možete kontaktirati, uvek odgovaram u 5PM. Sada je: </p>
+      <button id="contact-vreme" onclick="getVreme()">?PM.</button>
+      <form action="/action_page.php" method="POST">
+        <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center;">
+          <div style="padding: 10px; max-width: 50%;">
+            <label for="first-name" style="color: black !important;">First name: </label>
+            </br>
+            <input type="text" name="first-name" style="min-width: 100%; max-width:100%; min-height: 20px;color: black !important;">
+          </div>
+          <div style="padding: 10px; max-width: 50%;">
+            <label for="last-name" style="color: black !important;">Last name: </label>
+            </br>
+            <input type="text" name="last-name" style="min-width: 100%; min-height: 20px;">
+          </div>
+        </div>
+        </br>
+        <label for="email" style="color: black !important;">Email: </label>
+        </br>
+        <input type="text" name="email" style="min-width: 70%; min-height: 20px;">
+        </br></br>
+        <label for="hitno" style="color: black !important;">Emergency: </label>
+        <input type="checkbox" name="hitno">
+        </br></br>
+        <label for="recipient" style="color: black !important;">Who is this message for: </label>
+        <select name="recipient" id="recipient">
+          <option value="mirko">Mirko</option>
+          <option value="other">Other</option>
+        </select>
+        </br></br>
+        <label style="color: black !important;">Your Message: </label>
+        </br>
+        <textarea name="message" style="min-width: 100%; min-height: 150px;"></textarea>
+        </br></br>
+        <button id="contact-submit" value="Submit" type="button" onclick="validate()">Submit</button>
+      </form>
+      <p id="contact-result" style="color: red"></p>
+    </div>
+</div>
+
+<!-- MAIN BAR END -->
+
+<!-- BOTTOM BAR -->
+
+<div class="bottom-bar">
+    <div class="bottom-main">
+        <div style="border-top: 1px solid black; border-radius: 10%;">
+          <div class="bottom-networks">
+              <a href="https://www.youtube.com" class="youtube" target="_blank"><i class="fa fa-youtube"><p class="bottom-networks-info">youtube</p></i></a>
+              <a href="https://www.facebook.com" class="facebook" target="_blank"><i class="fa fa-facebook"><p class="bottom-networks-info">facebook</p></i></a>
+              <a href="https://www.instagram.com" class="instagram" target="_blank"><i class="fa fa-instagram"><p class="bottom-networks-info">instagram</p></i></a>
+              <a href="https://github.com/mirkonikic" class="github" target="_blank"><i class="fa fa-github"><p class="bottom-networks-info">github</p></i></a>
+              <a href="https://www.linkedin.com" class="linkedin" target="_blank"><i class="fa fa-linkedin"><p class="bottom-networks-info">linkedin</p></i></a>
+          </div>
+        </div>
+        <p style="border-bottom: 1px solid black;">Meni: </p>
+        <ul>
+            <li><a class="bottom-meni change_color" href="index.html">Home</a></li>
+            <li><a class="bottom-meni change_color" href="projects.html">Projects</a></li>
+            <li><a class="bottom-meni change_color" href="about.html">About</a></li>
+            <li><a class="bottom-meni change_color" href="contact.html">Contact</a></li>
+
+        </ul>
+    </div>
+</div>
+
+<!-- BOTTOM BAR END -->
+
+<!-- COPYRIGHT -->
+  <div style="text-align:center; height:auto; min-width: 100%; background-color: black; color: white;" class="copyright">
+    <p style="padding:10px;text-decoration:underline; margin: 0 !important;">Copyright 	&copy; 2020 Mirko Nikic</p>
+  </div>
+
+  <script src="js/main.js"></script>
+  </body>
+</html>
