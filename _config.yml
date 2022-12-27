@@ -3,7 +3,7 @@ title:            Jekyll Gitbook
 longtitle:        Jekyll Gitbook
 author:           Mirko Nikic
 
-url:              'https://mirkonikic.github.io'
+url:              '' #'https://mirkonikic.github.io'
 baseurl:          '/'
 rss:              RSS
 

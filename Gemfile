@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-git_source(:github) { |mirkonikic.github.io| "https://github.com/mirkonikic.github.io" }
+#git_source(:github) { |mirkonikic.github.io| "https://github.com/mirkonikic.github.io" }
 gem "jekyll"
 gem 'jekyll-feed'
 gem 'jekyll-readme-index'
