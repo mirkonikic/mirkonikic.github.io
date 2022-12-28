@@ -8,6 +8,7 @@
         />
     {% endif %}
 
+    
     <div class="page-inner">
         <div id="book-search-results">
             <div class="search-noresults">
@@ -18,16 +19,41 @@
                         <h1 id="{{ page.id }}">{{ site.title | escape }}</h1>
                     {% endif %}
 
+<!-- kod koji prikaze autora i ikonicu -->
+                    {% if page.layout == "post" %}
+                      <div style="display:flex;/*! height: 150px; *//*! padding: 0px; */align-items: center;border-bottom: white 1px solid;border-radius: 20px;margin-bottom: 20px;border-top: 2px solid white;">
+                
+                        <img src="/assets/profile.jpg" style="border-radius:100px; /*! position:fixed; */ /*! top:50; */ height:80px; z-index:50;display: inline-block;/*! float: center; */">
+                        <div style="display:flex;height: 150px;padding: 15px 0;align-items: center;padding-left: 100px;"> 
+                            <p id="/about-me" style="display: inline-block; width:80%"> 
+                              Posted on 
+                              <span style="text-decoration:underline">
+  
+                              {% if page.date %}
+                                {{ page.date | date: "%b %-d, %Y" }}
+                              {% else %}
+                                UNKNOWN
+                              {% endif %}
 
-                    {% if page.author %}
-                      {% if page.date %}
-                      <p id="{{ page.id }}" style="display: inline-block; width:80%">Posted on <span style="text-decoration:underline">{{ page.date | date: "%b %-d, %Y" }}</span>, by <a href="https://twitter.com/mirkhoff2"><b>{{ page.author | escape
-                          }}</b></a></p>
-                      {% else %}
-                      <p id="{{ page.id }}" style="display: inline-block; width:80%">Posted on <span style="color:red; font-weight:bold">UNKNOWN</span> by <a href="https://twitter.com/mirkhoff2"><b>{{ page.author | escape }}</b></a></p>
-                      {% endif %}
+                              </span>
+                              , by 
+                              <a href="https://twitter.com/mirkhoff2">
+                                {% if page.author %}
+                                  <b>{{ page.author | escape }}</b>
+                                {% else %}
+                                  <b>page.author.NOT_SET</b>
+                                {% endif %}
+                      
+                              </a>
+                            </p>
+                        </div>
+                        <p style="text-align: right; display: inline;">
+                          <b>{%- include read_time.html -%}</b> 
+                          read!
+                        </p>
+                      </div>
                     {% endif %}
-                    <p style="text-align: right; display: inline-block"><b>{%- include read_time.html -%}</b> read!</p>
+
 
                     {{ content }}
                 </section>
