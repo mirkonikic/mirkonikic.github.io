@@ -1,6 +1,6 @@
 ---
 title: CVE-2024-1086 Flipping Pages linux RCE
-description: Exploiting linux vulnerability in nf_tables (mirkhoff edition)
+description: Exploiting linux vulnerability in nf_tables <b style="color:red">(mirkhoff edition)</b>
 author: mirkhoff
 date: 2024-05-30 13:33:00 +0800
 categories: [vuln-research]

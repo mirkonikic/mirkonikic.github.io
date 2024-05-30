@@ -1,6 +1,6 @@
 ---
 title: CVE-2024-2961 ICONV php engine RCE
-description: Exploiting the glibc to hack the php engine (mirkhoff edition)
+description: Exploiting the glibc to hack the php engine <b style="color:red">(mirkhoff edition)</b>
 author: mirkhoff
 date: 2024-05-30 12:33:00 +0800
 categories: [vuln-research]

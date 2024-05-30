@@ -1,6 +1,6 @@
 ---
 title: analysis of the Russian APT Turla
-description: Analysis of the Russian APT Turla backdoor called TinyTurla (mirkhoff edition)
+description: Analysis of the Russian APT Turla backdoor called TinyTurla <b style="color:red">(mirkhoff edition)</b>
 author: mirkhoff
 date: 2024-05-30 14:33:00 +0800
 categories: [reversing]
