@@ -16,7 +16,7 @@ timezone: Europe/Belgrade
 
 title: mirkhoff # the main title
 
-tagline: Computer Scientist # it will display as the sub-title
+tagline: Reseacher and Computer Scientist # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Blog about Vulnerabilities, Exploits, Malwares and Cryptography.

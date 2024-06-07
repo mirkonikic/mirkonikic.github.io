@@ -1,6 +1,6 @@
 ---
 title: writeups for Flareon 4th edition
-description: Upsolving Flare-on 4th edition (2017), going into the windows internals
+description: My solutions for Flare-on 4th edition (2017), going into the windows internals
 author: mirkhoff
 date: 2024-05-30 11:33:00 +0800
 categories: [reversing]
